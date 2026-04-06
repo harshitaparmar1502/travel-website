@@ -1,0 +1,956 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body-wrap {
+    background-image: url(./image/background.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.contant-wrap {
+    display: flex;
+}
+
+.left-side img {
+    width: 70%;
+}
+
+
+
+.destination-around-world h1 {
+    width: 48%;
+    font-size: xxx-large;
+    font-weight: bold;
+    line-height: 1;
+    word-spacing: -3.1px;
+}
+
+.body-wrap {
+    margin-left: 0;
+    padding-left: 3rem;
+}
+
+.destination-around-world p {
+    width: 50%;
+    text-align: justify;
+    line-height: 1.3;
+}
+
+.destination-around-world h4 {
+    color: #DF6951;
+    margin-bottom: 0;
+}
+
+
+
+
+.container-fluid ul.navbar-nav {
+    gap: 2.1rem;
+}
+
+.container-fluid li.nav-item a {
+    color: black;
+}
+
+.bg-light {
+    background: none !important;
+}
+
+ul.navbar-nav button {
+    background-color: #fff1da;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0px 10;
+}
+
+.find-out-btn {
+    border: navajowhite;
+    background-color: orange;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 6px;
+}
+
+i.fa-solid.fa-play {
+    margin-left: 1rem;
+    font-size: 6px;
+    background-color: #DF6951;
+    padding: 10px;
+    border-radius: 26px;
+    color: white;
+    TEXT-ALIGN: center;
+}
+
+.best-flight img {
+    width: 70px;
+    height: 10px;
+}
+
+img.best-flight {
+    width: 70px;
+    height: 83px;
+}
+
+
+.service img {
+    width: 72px;
+    height: 50px;
+}
+
+
+
+.service p {
+    text-align: left;
+    line-height: 1.3;
+
+}
+
+.service h5 {
+    margin-bottom: 0;
+}
+
+.service-heading {
+    width: 26%;
+    margin: 0 auto;
+}
+
+
+
+
+.top-destination {
+    padding: 80px 0;
+    text-align: center;
+    background: #fff;
+}
+
+.container {
+    margin: auto;
+    padding: 0 20px;
+}
+
+.small-title {
+    color: #5e6282;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.main-title {
+    font-size: 40px;
+    color: #14183e;
+    margin-bottom: 50px;
+}
+
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.destination-card {
+    background: #fff;
+    border-radius: 24px;
+    overflow: hidden;
+    max-width: 330px;
+
+
+
+}
+
+.image-wrap {
+    height: 320px;
+    overflow: hidden;
+    width: 124%;
+}
+
+.image-wrap img {
+    width: 100%;
+   
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.destination-card:hover img {
+    transform: scale(1.08);
+}
+
+
+.card-content {
+    padding: 18px 20px 22px;
+    margin-left: 4rem;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-top h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #14183e;
+    margin: 0;
+}
+
+.card-top span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #5e6282;
+}
+
+
+.trip-days {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #5e6282;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-wrap ul {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.discover-our-app ul {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 0;
+}
+
+
+.footer-wrap ul li h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.footer-logo p {
+    margin-top: 23px;
+
+    width: 57%;
+    line-height: 1.1;
+}
+
+.information {
+    width: 68%;
+    height: 220px;
+    margin: 0 auto;
+    background-color: lavender;
+    padding: 20px;
+    margin-bottom: 4rem;
+    border-radius: 23px;
+    text-align: center;
+}
+
+.text-wrap h3 {
+    width: 74%;
+    margin: 0 auto;
+}
+
+.btn-wrap ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+button {}
+
+.btn-wrap li button {
+    padding: 5px 20px;
+    border: navajowhite;
+    background-color: #FF8269;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-wrap li.mail {
+    margin-left: 10rem;
+    background-color: white;
+    width: 45%;
+    padding: 4px 13px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+
+section.testimonial-section .container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+
+section.testimonial-section .container .left {
+    width: 40%;
+}
+
+section.testimonial-section .container .left h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1;
+}
+
+section.testimonial-section .container .right {
+    width: 60%;
+}
+
+.testimonial-slider {
+    height: 300px;
+}
+
+.testimonial-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial-slider .slick-arrow {
+    position: absolute;
+    right: 0 !important;
+    left: unset;
+    bottom: 0 !important;
+    top: unset;
+}
+
+button.slick-prev.slick-arrow {
+    bottom: 40px !important;
+}
+
+
+section.book-your.trip .your-trip {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.body-wrap {
+    background-image: url(./image/background.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.contant-wrap {
+    display: flex;
+}
+
+.left-side img {
+    width: 70%;
+}
+
+
+
+.destination-around-world h1 {
+    width: 48%;
+    font-size: xxx-large;
+    font-weight: bold;
+    line-height: 1;
+    word-spacing: -3.1px;
+}
+
+
+
+.destination-around-world p {
+    width: 50%;
+    text-align: justify;
+    line-height: 1.3;
+}
+
+.destination-around-world h4 {
+    color: #DF6951;
+    margin-bottom: 0;
+}
+
+
+.container-fluid {
+    display: flex !important;
+    gap: 2rem;
+    justify-content: space-between !important;
+    width: 100%;
+}
+
+.container-fluid ul.navbar-nav {
+    gap: 2.1rem;
+}
+
+.container-fluid li.nav-item a {
+    color: black;
+}
+
+ul.navbar-nav button {
+    background-color: #fff1da;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0px 10;
+}
+
+.find-out-btn {
+    border: navajowhite;
+    background-color: orange;
+    color: white;
+    padding: 7px 14px;
+    border-radius: 6px;
+}
+
+i.fa-solid.fa-play {
+    margin-left: 1rem;
+    font-size: 6px;
+    background-color: #DF6951;
+    padding: 10px;
+    border-radius: 26px;
+    color: white;
+    TEXT-ALIGN: center;
+}
+
+.best-flight img {
+    width: 70px;
+    height: 10px;
+}
+
+img.best-flight {
+    width: 70px;
+    height: 83px;
+}
+
+
+.service img {
+    width: 72px;
+    height: 50px;
+}
+
+.best-services {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 2rem;
+    margin-left: 4rem;
+
+}
+
+.service p {
+    text-align: left;
+    line-height: 1.3;
+
+}
+
+.service h5 {
+    margin-bottom: 0;
+}
+
+.service-heading h3 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+.top-destination {
+    padding: 80px 0;
+    text-align: center;
+    background: #fff;
+}
+
+.small-title {
+    color: #5e6282;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-wrap ul {
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.discover-our-app ul {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 0;
+}
+
+
+.footer-wrap ul li h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.footer-logo p {
+    margin-top: 23px;
+
+    width: 57%;
+    line-height: 1.1;
+}
+
+.last-line {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.information {
+    width: 68%;
+    height: 220px;
+    margin: 0 auto;
+    background-color: lavender;
+    padding: 20px;
+    margin-bottom: 4rem;
+    border-radius: 23px;
+    text-align: center;
+}
+
+.text-wrap h3 {
+    width: 74%;
+    margin: 0 auto;
+}
+
+
+
+
+.btn-wrap li button {
+    padding: 5px 20px;
+    border: navajowhite;
+    background-color: #FF8269;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-wrap li.mail {
+    margin-left: 10rem;
+    background-color: white;
+    width: 45%;
+    padding: 4px 13px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+
+section.testimonial-section .container {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+
+section.testimonial-section .container .left {
+    width: 40%;
+}
+
+section.testimonial-section .container .left h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1;
+}
+
+section.testimonial-section .container .right {
+    width: 60%;
+}
+
+.testimonial-slider {
+    height: 300px;
+}
+
+.testimonial-card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+button.slick-prev.slick-arrow {
+    bottom: 40px !important;
+}
+
+.testimonial-slider i.fa-solid.fa-angle-up {
+    position: absolute;
+    top: 14rem;
+    z-index: 1;
+}
+
+.testimonial-slider .slick-arrow {
+    position: absolute;
+    right: 0 !important;
+    left: unset;
+    bottom: 0 !important;
+    top: unset;
+}
+
+section.book-your.trip .your-trip {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul.steps-list li {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.icon-box {
+    font-size: 22px;
+    width: 9%;
+    height: 43px;
+    padding-left: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+}
+
+.icon-box.one {
+    background-color: #F3CC57;
+    color: white;
+    color: #F6D573;
+    /* padding: 20px; */
+}
+
+.icon-box.two {
+    background-color: #F15A2B;
+    text-align: center;
+    color: #F7987B;
+}
+
+.icon-box.three {
+    background-color: #006380;
+    text-align: center;
+    color: #609DAF;
+}
+
+section.slider-section {
+    height: 35%;
+    text-align: center;
+}
+.footer-text-wrap {
+    display: contents;
+}
+@media (max-width: 1200px) {}
+
+@media (max-width: 991px) {
+    .navbar-toggler.navbar-toggler-cross {
+        display: block;
+    }
+
+    .navbar-toggler .navbar-toggler-icon {
+        display: none;
+    }
+
+    button.navbar-toggler.collapsed .navbar-toggler-icon {
+        display: block;
+    }
+
+    button.navbar-toggler.collapsed .navbar-toggler-cross {
+        display: none;
+    }
+
+    .navbar-nav {
+        padding-top: 10px;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 6px 0;
+        line-height: 1.2;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:active {
+        box-shadow: none;
+        outline: none;
+    }
+
+    .container-fluid {
+        display: flex !important;
+        gap: 1rem;
+        justify-content: space-between !important;
+        width: 100%;
+    }
+
+    .container-fluid ul.navbar-nav {
+        gap: 0;
+    }
+    .footer-wrap {
+    padding: 30px;
+}
+}
+
+@media (max-width: 768px) {
+    .body-wrap {
+        background-image: none;
+    }
+
+    .navbar-toggler.navbar-toggler-cross {
+        display: block;
+    }
+
+    .navbar-toggler .navbar-toggler-icon {
+        display: none;
+    }
+
+    button.navbar-toggler.collapsed .navbar-toggler-icon {
+        display: block;
+    }
+
+    button.navbar-toggler.collapsed .navbar-toggler-cross {
+        display: none;
+    }
+
+    .contant-wrap {
+        display: block;
+    }
+
+    .destination-around-world {
+        text-align: center;
+        width: 100%;
+        margin: 20px;
+    }
+.destination-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.footer-wrap {
+    padding: 20px;
+    display: block;
+}
+
+.btn-wrap li.mail {
+    margin-left: 4rem;
+}
+
+    .destination-around-world h1 {
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .destination-around-world p {
+        width: 69%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+
+    .contant-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .destination-around-world {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .destination-around-world h1,
+    .destination-around-world p {
+        width: 100%;
+    }
+
+    .service-heading {
+        width: 100%;
+        text-align: center;
+    }
+
+    .best-services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service {
+        max-width: 100%;
+    }
+
+    .service-heading {
+        width: 50%;
+        margin-top: 2rem;
+    }
+
+    section.book-your.trip .your-trip {
+        display: block;
+        margin: 20px;
+    }
+
+    .steps h2 {
+        margin-left: 2rem;
+    }
+
+    .steps-img img {
+        width: 467px;
+    }
+
+    .icon-box {
+        font-size: 27px;
+        width: 9%;
+    }
+    .footer-text-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.discover-our-app {width: 223px;margin: 0 auto;}
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo p {
+    text-align: center;
+    width: 334px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.information {
+    width: 75%;
+    height: 250px;
+}
+}
+
+
+@media (max-width: 480px) {
+    .navbar-toggler.navbar-toggler-cross {
+        display: block;
+    }
+
+    .navbar-toggler .navbar-toggler-icon {
+        display: none;
+    }
+
+    button.navbar-toggler.collapsed .navbar-toggler-icon {
+        display: block;
+    }
+
+    button.navbar-toggler.collapsed .navbar-toggler-cross {
+        display: none;
+    }
+
+    section.book-your.trip .your-trip {
+        display: block;
+        margin: 20px;
+    }
+
+    .steps h2 {
+        margin-left: 2rem;
+    }
+
+    .steps-img img {
+        width: 467px;
+    }
+
+    .icon-box {
+        font-size: 15px;
+        width: 15%;
+    }
+
+    section.testimonial-section .container {
+        display: block;
+    }
+
+    section.testimonial-section .container .left {
+        width: 100%;
+    }
+
+    section.testimonial-section .container .right {
+        width: 100%;
+    }
+
+    section.slider-section {
+        height: 17%;
+    }
+
+    .information {
+        width: 90%;
+    }
+
+    .btn-wrap li.mail {
+        margin-left: 0;
+    }
+
+    .testimonial-slider i.fa-solid.fa-angle-up {
+        top: 7rem;
+    }
+
+    .testimonial-slider .slick-arrow {
+        bottom: 7rem !important;
+    }
+
+    .company-wrap {
+        display: none;
+    }
+
+    .more-wrap {
+        display: none;
+    }
+
+    .cotact-wrap {
+        display: none;
+    }
+
+    .discover-our-app ul h5 {
+        display: none;
+    }
+
+    .discover-our-app {
+        display: none;
+    }
+
+    .footer-logo p {
+        display: none;
+    }
+
+    .footer-wrap {
+        display: block;
+        margin-left: 27px;
+    }
+
+    .destination-grid {
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
